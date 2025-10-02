@@ -1,11 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Lab05.Models;
+﻿using Lab05.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Lab05.Controllers
 {
     public class EmployeesController : Controller
     {
-        
+
         private static List<Employee> _employees = new List<Employee>
         {
             new Employee { Id = 1, fullName = "Nguyen Van A", Gender = "Male", Phone = "0123456789", Email = "a@gmail.com", Salary = 1000, Status = "Active" },
